@@ -1,26 +1,31 @@
 #include <stdio.h>
 
-// perimeter of rectangle
+// no is even or odd
 
 int main(){
 
-	float l,b,perimeter;
 
-	printf("enter length");
-	scanf("%f", &l);
+	int a=0;
+	printf("enter a number ");
+	scanf("%d", &a);
+if(a>0){
 
-	printf("enter breadth");
-	scanf("%f", &b);
+	if(a%2==0){
 
-	perimeter=2*(l+b);
+		printf("number is Even");
+	}
+	else {
+		printf("number is odd");
+	} 
+}
+	else{
+		printf("enter valid number");
+	}
 
-	printf("%f", perimeter);
-
-	return 0;
 
 
 	
-
+return 0;
 
 
 	 }
