@@ -1,4 +1,4 @@
-// print the sum of first n natural number and reverse of it
+// print the sum of first n natural number.
 
 #include <stdio.h>
 
