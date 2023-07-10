@@ -1,8 +1,26 @@
 #include <stdio.h>
+
+// perimeter of rectangle
+
 int main(){
 
-printf("hello world");
+	float l,b,perimeter;
 
-return 0;
+	printf("enter length");
+	scanf("%f", &l);
 
-}
+	printf("enter breadth");
+	scanf("%f", &b);
+
+	perimeter=2*(l+b);
+
+	printf("%f", perimeter);
+
+	return 0;
+
+
+	
+
+
+
+	 }
