@@ -1,19 +1,17 @@
 #include <stdio.h>
-#include <ctype.h>
-
 int main(){
 
-	char c=0;
-	printf("enter number ");
-	scanf("%c", &c);
+	int n=0;
+	int i=0;
 
-	if(isdigit(c)){
+	printf("enter number");
+	scanf("%d", &n);
 
-		printf("given char is digit");
-	}
-	else{
-		printf("given char is not digit");
-	}
+	do{
+		printf("\n %d", i);
+
+		i++;
+	}while(i<=n);
 
 	return 0;
 }
