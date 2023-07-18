@@ -5,7 +5,7 @@ int main(){
 
 	int a=4,b=2;
 
-	increment(a,b);
+	increment(&a,&b);
 
 
 	printf("value of a and b is equal to %d , %d \n", a,b);
@@ -14,7 +14,7 @@ int main(){
 	return 0;
 }
 
-int increment(int a, int b){
+int increment(int *a, int *b){
 
 	a++;
 	b++;
